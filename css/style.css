@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GERAL */
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(10px + 1vw);
+    margin: 4vw 15vw 4vw 15vw;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* TOPO */
+header {
+    background: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 6vw 0;
+}
+header p span.negrito {
+     font-weight: bold;
+}
+header ul {
+    display: flex;
+}
+header ul li a {
+    margin: 0 0 0 4vw;
+    color: #868686;
+}
+header ul li a.atual {
+    color: black;
+}
+
+/*HEADLINE*/
+section.headline {
+    background: #f4f4f4;
+    display: flex;
+}
+section.headline div {
+    margin: 0 3vw 0 0;
+}
+section.headline div h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+section.headline div h1 span {
+    color: rgb(85, 206, 85);
+}
+section.headline div p {
+    margin: 2vw 0 2vw 0;
+}
+section.headline div ul {
+    display: flex;
+}
+section.headline div li button {
+    width: 10vw;
+    height: 4vw;
+    background: black;
+    border: none;
+    margin: 0 4vw 0 0;
+}
+section.headline div li button a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+section.headline div li a.sublinhado {
+    text-decoration: underline;
+}
+ /*POINT*/
+ section.point h2 {
+    font-weight: bold;
+    text-align: center;
+    margin: 5vw 0 5vw 0;
+ }
+ section.point div {
+    display: flex;
+    margin: 0 0 5vw 0;
+ }
+section.point div p {
+    padding: 4vw;
+}
+
+/*EXPERIMENTS*/
+section.experiments h2 {
+    font-weight: bold;
+    text-align: center;
+    margin: 3vw 0 2vw 0;
+}
+section.experiments > div{
+    display: flex;
+}
+section.experiments div {
+    padding: 2vw;
+}
+section.experiments div p {
+    margin: 0 0 2vw 0;
+}
+section.experiments div p span {
+    font-weight: bold;
+}
+
+/*FOOTER*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vw 0 5vw 0;
+}
+footer div ul {
+    display: flex;
+}
+footer div ul li {
+    margin: 0 1vw 0 1vw;
+}
+footer div ul li a {
+    color: #868686;
+    text-decoration: underline;
+}
